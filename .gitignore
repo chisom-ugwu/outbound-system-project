@@ -1,0 +1,17 @@
+# Git ignore rules for CoreAI Outbound System
+
+# Environment & Credentials
+.env
+credentials.json
+token.json
+
+# Temporary / Local storage
+.tmp/
+__pycache__/
+*.pyc
+
+# Local IDEs / System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
